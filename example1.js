@@ -1,19 +1,4 @@
 
-/*
-Đầu vào: 1 số
-xử lý chia cho 10 để lấy ký số 1
-chia lấy phần dư cho 10 để lấy ký số 2
-đầu ra: tổng của 2 ký số
-*/
-
-let kySo=23;
-let kySo2=kySo%10;
-let kySo1 = (kySo-kySo2)/10;
-let tong2KySo= kySo1+kySo2;
-
-console.log(tong2KySo);
-
-
 // Bài 1
 // Đầu vào: Số ngày làm việc, lương 1 ngày
 // Xử lý: Tổng lương = Số ngày làm việc * lương 1 ngày
@@ -82,5 +67,6 @@ let tensDigit = Math.floor(number/10);
 let unitsDigit = number % 10;
 
 let sumOfDigits = tensDigit + unitsDigit;
+
 
 console.log("Tổng 2 ký số: " + sumOfDigits);
